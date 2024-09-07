@@ -1,0 +1,9 @@
+#!/bin/env bash
+
+rm -rf ~/.config/nvim
+rm -rf ~/.local/state/nvim
+rm -rf ~/.local/share/nvim
+
+mv ~/.config/nvim.bak ~/.config/nvim
+mv ~/.local/share/nvim.bak ~/.local/share/nvim
+mv ~/.local/state/nvim.bak ~/.local/state/nvim

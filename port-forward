@@ -1,0 +1,5 @@
+#!/bin/env bash
+hostname -I
+# Assume the output is 192.168.1.100
+upnpc -a 192.168.100.255 4549 TCP
+
